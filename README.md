@@ -42,6 +42,12 @@
     "explorer.confirmDelete":false,
     
     "editor.rulers":[80,120],
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
  ```
   - 4.1.4 - configure PATH LINUX/MAC
     - 4.1.4.1 - shift + ctrl + p Install com,and in PATH select option Shell Command: Install 'code' command in PATH
