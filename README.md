@@ -48,6 +48,26 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
+        "[javascript]":{
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+        }
+      },
+      "[javascriptreact]":{
+        "editor.codeActionsOnSave":{
+          "source.fixAll.eslint":true,
+        }
+      },
+      "[typescript]": {
+          "editor.codeActionsOnSave": {
+              "source.fixAll.eslint":true
+          }
+      },
+      "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint":true
+        }
+    },
  ```
   - 4.1.4 - configure PATH LINUX/MAC
     - 4.1.4.1 - shift + ctrl + p Install com,and in PATH select option Shell Command: Install 'code' command in PATH
